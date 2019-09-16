@@ -1,0 +1,206 @@
+body {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  background-color: #EAEBEC;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 75px;
+  /*text-shadow: -2px 2px 2px #CE5937;*/
+  text-shadow: -2px 2px 2px gray;
+}
+
+.container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* The Modal (background) */
+.toroModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.toro {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 75%;
+}
+
+#toroBtn {
+  box-shadow: 3px 3px black, -1em 0 .4em gray;
+}
+
+/* The Modal (background) */
+.bloodModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.blood {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 75%;
+}
+
+#bloodBtn {
+  box-shadow: 3px 3px black, -1em 0 .4em gray;
+}
+
+.washedModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+.washed {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 75%;
+}
+
+#washedBtn {
+  box-shadow: 3px 3px black, -1em 0 .4em gray;
+}
+
+.tychoModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  opacity: .8;
+}
+
+.tycho {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 75%;
+}
+
+#tychoBtn {
+  box-shadow: 3px 3px black, -1em 0 .4em gray;
+}
+
+/* The Close Button */
+.closeToro {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeToro:hover,
+.closeToro:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeBlood {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeBlood:hover,
+.closeBlood:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeWashed {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeWashed:hover,
+.closeWashed:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeTycho {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeTycho:hover,
+.closeTycho:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+  height: 250px;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
