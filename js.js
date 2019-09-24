@@ -5,6 +5,7 @@ let washed = document.querySelector('#washedModal');
 let tycho = document.querySelector('#tychoModal');
 
 // Get the button that opens the modal
+let button = document.querySelector(".btn");
 let toroButton = document.querySelector("#toroBtn");
 let bloodButton = document.querySelector("#bloodBtn");
 let washedButton = document.querySelector('#washedBtn');
@@ -17,6 +18,10 @@ let spanWashed = document.getElementsByClassName("closeWashed")[0];
 let spanTycho = document.getElementsByClassName("closeTycho")[0];
 
 // When the user clicks the button, open the modal 
+/*button.onclick = function() {
+  toro.style.display = "block";
+}*/
+
 toroButton.onclick = function() {
   toro.style.display = "block";
 }

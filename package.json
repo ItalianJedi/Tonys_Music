@@ -1,0 +1,22 @@
+{
+  "name": "tonys_music",
+  "version": "1.0.0",
+  "description": "Landing page for web project",
+  "main": "js.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItalianJedi/Tonys_Music.git"
+  },
+  "author": "Tony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItalianJedi/Tonys_Music/issues"
+  },
+  "homepage": "https://github.com/ItalianJedi/Tonys_Music#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
