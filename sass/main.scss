@@ -33,7 +33,10 @@ h2 {
 }
 
 
-/* The Modal (background) */
+.btn {
+  box-shadow: $btnBoxShadow;
+}
+
 .toroModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -82,11 +85,6 @@ h2 {
   }
 }
 
-.btn {
-  box-shadow: $btnBoxShadow;
-}
-
-/* The Modal (background) */
 .bloodModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */

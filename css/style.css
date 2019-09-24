@@ -17,7 +17,9 @@ h2 {
   justify-content: space-evenly;
   flex-wrap: wrap; }
 
-/* The Modal (background) */
+.btn {
+  box-shadow: 3px 3px black, -1em 0 0.4em gray; }
+
 .toroModal {
   display: none;
   /* Hidden by default */
@@ -67,10 +69,6 @@ h2 {
     text-decoration: none;
     cursor: pointer; }
 
-.btn {
-  box-shadow: 3px 3px black, -1em 0 0.4em gray; }
-
-/* The Modal (background) */
 .bloodModal {
   display: none;
   /* Hidden by default */
