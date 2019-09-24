@@ -32,6 +32,7 @@ h2 {
   flex-wrap: wrap;
 }
 
+
 /* The Modal (background) */
 .toroModal {
   display: none; /* Hidden by default */
@@ -44,21 +45,42 @@ h2 {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: $modalBackground; /* Black w/ opacity */
+  /*Fade In*/
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .toro {
+    background-color: $modalContent;
+    margin: auto;
+    padding: 20px;
+    border: $modalBorder;
+    width: 80%;
+    height: 75%;
+  }
+  .closeToro {
+    color: $closeButton;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeToro:hover,
+  .closeToro:focus {
+    color: $closeHover;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
-
-/* Modal Content */
-.toro {
-  background-color: $modalContent;
-  margin: auto;
-  padding: 20px;
-  border: $modalBorder;
-  width: 80%;
-  height: 75%;
-}
-
-/*#toroBtn {
-  box-shadow: $btnBoxShadow;
-}*/
 
 .btn {
   box-shadow: $btnBoxShadow;
@@ -76,20 +98,41 @@ h2 {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: $modalBackground; /* Black w/ opacity */
-}
-
-/* Modal Content */
-.blood {
-  background-color: $modalContent;
-  margin: auto;
-  padding: 20px;
-  border: $modalBorder;
-  width: 80%;
-  height: 75%;
-}
-
-#bloodBtn {
-  box-shadow: $btnBoxShadow;
+    /*Fade In*/
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  .blood {
+    background-color: $modalContent;
+    margin: auto;
+    padding: 20px;
+    border: $modalBorder;
+    width: 80%;
+    height: 75%;
+  }
+  .closeBlood {
+    color: $closeButton;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeBlood:hover,
+  .closeBlood:focus {
+    color: $closeHover;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 .washedModal {
@@ -103,19 +146,41 @@ h2 {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: $modalBackground; /* Black w/ opacity */
-}
-
-.washed {
-  background-color: $modalContent;
-  margin: auto;
-  padding: 20px;
-  border: $modalBorder;
-  width: 80%;
-  height: 75%;
-}
-
-#washedBtn {
-  box-shadow: $btnBoxShadow;
+    /*Fade In*/
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  .washed {
+    background-color: $modalContent;
+    margin: auto;
+    padding: 20px;
+    border: $modalBorder;
+    width: 80%;
+    height: 75%;
+  }
+  .closeWashed {
+    color: $closeButton;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeWashed:hover,
+  .closeWashed:focus {
+    color: $closeHover;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 .tychoModal {
@@ -129,82 +194,44 @@ h2 {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: $modalBackground; /* Black w/ opacity */
-}
-
-.tycho {
-  background-color: $modalContent;
-  margin: auto;
-  padding: 20px;
-  border: $modalBorder;
-  width: 80%;
-  height: 75%;
-}
-
-#tychoBtn {
-  box-shadow: $btnBoxShadow;
-}
-
-/* The Close Button */
-.closeToro {
-  color: $closeButton;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.closeToro:hover,
-.closeToro:focus {
-  color: $closeHover;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.closeBlood {
-  color: $closeButton;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.closeBlood:hover,
-.closeBlood:focus {
-  color: $closeHover;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.closeWashed {
-  color: $closeButton;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.closeWashed:hover,
-.closeWashed:focus {
-  color: $closeHover;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.closeTycho {
-  color: $closeButton;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.closeTycho:hover,
-.closeTycho:focus {
-  color: $closeHover;
-  text-decoration: none;
-  cursor: pointer;
+    /*Fade In*/
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  .tycho {
+    background-color: $modalContent;
+    margin: auto;
+    padding: 20px;
+    border: $modalBorder;
+    width: 80%;
+    height: 75%;
+  }
+  .closeTycho {
+    color: $closeButton;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeTycho:hover,
+  .closeTycho:focus {
+    color: $closeHover;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 img {
-  /*display: block;
-  margin-left: auto;
-  margin-right: auto;*/
   height: 250px;
 }
 
@@ -214,3 +241,4 @@ iframe {
   margin-right: auto;
   height: 400px;
 }
+

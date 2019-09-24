@@ -36,20 +36,37 @@ h2 {
   overflow: auto;
   /* Enable scroll if needed */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */ }
+  /* Black w/ opacity */
+  /*Fade In*/
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s; }
 
-/* Modal Content */
-.toro {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  height: 75%; }
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .toroModal .toro {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 75%; }
+  .toroModal .closeToro {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold; }
+  .toroModal .closeToro:hover,
+  .toroModal .closeToro:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
 
-/*#toroBtn {
-  box-shadow: $btnBoxShadow;
-}*/
 .btn {
   box-shadow: 3px 3px black, -1em 0 0.4em gray; }
 
@@ -72,19 +89,36 @@ h2 {
   overflow: auto;
   /* Enable scroll if needed */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */ }
+  /* Black w/ opacity */
+  /*Fade In*/
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s; }
 
-/* Modal Content */
-.blood {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  height: 75%; }
-
-#bloodBtn {
-  box-shadow: 3px 3px black, -1em 0 0.4em gray; }
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .bloodModal .blood {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 75%; }
+  .bloodModal .closeBlood {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold; }
+  .bloodModal .closeBlood:hover,
+  .bloodModal .closeBlood:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
 
 .washedModal {
   display: none;
@@ -104,18 +138,36 @@ h2 {
   overflow: auto;
   /* Enable scroll if needed */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */ }
+  /* Black w/ opacity */
+  /*Fade In*/
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s; }
 
-.washed {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  height: 75%; }
-
-#washedBtn {
-  box-shadow: 3px 3px black, -1em 0 0.4em gray; }
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .washedModal .washed {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 75%; }
+  .washedModal .closeWashed {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold; }
+  .washedModal .closeWashed:hover,
+  .washedModal .closeWashed:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
 
 .tychoModal {
   display: none;
@@ -135,72 +187,38 @@ h2 {
   overflow: auto;
   /* Enable scroll if needed */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */ }
+  /* Black w/ opacity */
+  /*Fade In*/
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s; }
 
-.tycho {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  height: 75%; }
-
-#tychoBtn {
-  box-shadow: 3px 3px black, -1em 0 0.4em gray; }
-
-/* The Close Button */
-.closeToro {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold; }
-
-.closeToro:hover,
-.closeToro:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer; }
-
-.closeBlood {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold; }
-
-.closeBlood:hover,
-.closeBlood:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer; }
-
-.closeWashed {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold; }
-
-.closeWashed:hover,
-.closeWashed:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer; }
-
-.closeTycho {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold; }
-
-.closeTycho:hover,
-.closeTycho:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer; }
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .tychoModal .tycho {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 75%; }
+  .tychoModal .closeTycho {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold; }
+  .tychoModal .closeTycho:hover,
+  .tychoModal .closeTycho:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
 
 img {
-  /*display: block;
-  margin-left: auto;
-  margin-right: auto;*/
   height: 250px; }
 
 iframe {
