@@ -1,0 +1,60 @@
+body {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  background-color: $background;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 75px;
+  color: $textColor;
+  text-shadow: $textShadow;
+}
+
+.container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.btn {
+  box-shadow: $btnBoxShadow;
+}
+
+img {
+  height: 250px;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .btn {
+      box-shadow: $btnBoxShadow;
+      margin: 20px;
+    }
+
+    img {
+      height: 80%;
+      width: 85%;
+    }
+    
+    iframe {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 250px;
+      width: 250px;
+    }
+}

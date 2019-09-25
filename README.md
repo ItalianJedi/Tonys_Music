@@ -6,5 +6,11 @@ Added SASS to the project and started with variables.
 
 Added SASS nesting to the project.
 
-TODO:
-I want to rewrite some of the code so there is only one set of code for each module instead of separate code for each artist.
+Added SASS partials to the project.
+  -main: where all the imports go
+  -base: base styles
+  -artists: artists modules
+  -variables: where I declare my variables
+  -normalize: https://necolas.github.io/normalize.css/
+    Normalize.css renders styles more consistently among browsers 
+  

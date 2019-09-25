@@ -1,0 +1,191 @@
+.toroModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: $modalBackground; /* Black w/ opacity */
+  /*Fade In*/
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .toro {
+    background-color: $modalContent;
+    margin: auto;
+    padding: 20px;
+    border: $modalBorder;
+    width: 80%;
+    height: 75%;
+  }
+  .closeToro {
+    color: $closeButton;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeToro:hover,
+  .closeToro:focus {
+    color: $closeHover;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.bloodModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: $modalBackground; /* Black w/ opacity */
+    /*Fade In*/
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  .blood {
+    background-color: $modalContent;
+    margin: auto;
+    padding: 20px;
+    border: $modalBorder;
+    width: 80%;
+    height: 75%;
+  }
+  .closeBlood {
+    color: $closeButton;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeBlood:hover,
+  .closeBlood:focus {
+    color: $closeHover;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.washedModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: $modalBackground; /* Black w/ opacity */
+    /*Fade In*/
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  .washed {
+    background-color: $modalContent;
+    margin: auto;
+    padding: 20px;
+    border: $modalBorder;
+    width: 80%;
+    height: 75%;
+  }
+  .closeWashed {
+    color: $closeButton;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeWashed:hover,
+  .closeWashed:focus {
+    color: $closeHover;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.tychoModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: $modalBackground; /* Black w/ opacity */
+    /*Fade In*/
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  .tycho {
+    background-color: $modalContent;
+    margin: auto;
+    padding: 20px;
+    border: $modalBorder;
+    width: 80%;
+    height: 75%;
+  }
+  .closeTycho {
+    color: $closeButton;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeTycho:hover,
+  .closeTycho:focus {
+    color: $closeHover;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
