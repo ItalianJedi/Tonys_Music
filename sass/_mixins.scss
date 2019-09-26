@@ -1,0 +1,48 @@
+@mixin modal-style {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: $modalBackground; /* Black w/ opacity */
+  /*Fade In*/
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin modal-content {
+  background-color: $modalContent;
+  margin: auto;
+  padding: 20px;
+  border: $modalBorder;
+  width: 80%;
+  height: 75%;
+}
+
+@mixin close-modal {
+  color: $closeButton;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@mixin close-hover {
+  color: $closeHover;
+  text-decoration: none;
+  cursor: pointer;
+}

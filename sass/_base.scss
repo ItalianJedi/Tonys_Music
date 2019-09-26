@@ -40,9 +40,24 @@ iframe {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+    h2 {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 55px;
+      color: $textColor;
+      text-shadow: $textShadow;
+    }
+    .container {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
     .btn {
       box-shadow: $btnBoxShadow;
       margin: 20px;
+      //margin-top: 20px;
     }
 
     img {

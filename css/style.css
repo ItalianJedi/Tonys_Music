@@ -335,6 +335,18 @@ iframe {
   height: 400px; }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  h2 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 55px;
+    color: black;
+    text-shadow: -2px 2px 2px gray; }
+  .container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
   .btn {
     box-shadow: 3px 3px black, -1em 0 0.4em gray;
     margin: 20px; }
