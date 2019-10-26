@@ -360,6 +360,25 @@ iframe {
     height: 250px;
     width: 250px; } }
 
+/*News API Styles, need SASS conversion*/
+h3 {
+  font-size: 25px; }
+
+.container2 {
+  margin-top: 80px; }
+
+ol {
+  list-style-type: none; }
+
+li {
+  border: solid .5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px black, -1em 0 .4em gray; }
+
+.headlines {
+  margin-bottom: 50px; }
+
 .toroModal {
   display: none;
   /* Hidden by default */

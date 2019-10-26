@@ -16,4 +16,7 @@ Added SASS partials to the project.
   -variables: where I declare my variables
   -normalize: https://necolas.github.io/normalize.css/
     Normalize.css renders styles more consistently among browsers 
-  
+
+npm run compile:sass 
+
+Taught myself Fetch API and fetched some JSON data from the News API. The parameters I used was all sources (everything), Chillwave music (q = indie music), and am trying to limit 5 results at a time (totalResults=5) but I can't get that one to work. Needs a lot of styling love and SASS updates.
