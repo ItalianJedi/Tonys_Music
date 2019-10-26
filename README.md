@@ -1,4 +1,4 @@
-Just a small project where I practice DOM manipulation, media-queries, Flexbox, and SASS.
+Just a small project where I practice DOM manipulation, media-queries, Flexbox, SASS, and Fetch API.
 
 I found starter code for pop ups (I believe from W3 schools) and added to it. I also thought this would be a good opportunity to practice some Flexbox skills.
 
